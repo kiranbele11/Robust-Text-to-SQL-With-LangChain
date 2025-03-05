@@ -18,12 +18,12 @@ A powerful natural language to SQL query converter built with Streamlit and Lang
 
 ## 🖼️ Screenshots
 
-![App Homepage](Screenshot 2025-03-04 at 6.54.55 PM.png)
-![Query Results](Screenshot 2025-03-04 at 1.00.09 PM.png)
+![App Homepage](Screenshots/Screenshot 2025-03-04 at 6.54.55 PM.png)
+![Query Results](Screenshots/Screenshot 2025-03-04 at 1.00.09 PM.png)
 
 ## 📹 Demo Video
 
-[Watch the demo](Screen Recording 2025-03-04 at 6.44.59 PM.mov)
+![Watch the demo](Screenshots/Screen Recording 2025-03-04 at 6.44.59 PM.mov)
 
 ## 🛠️ How It Works
 
