@@ -18,12 +18,15 @@ A powerful natural language to SQL query converter built with Streamlit and Lang
 
 ## 🖼️ Screenshots
 
-![App Homepage](Screenshots/Screenshot 2025-03-04 at 6.54.55 PM.png)
-![Query Results](Screenshots/Screenshot 2025-03-04 at 1.00.09 PM.png)
+![App Homepage](Screenshots/App-Homepage.png)
+*The SQL Query Generator main interface*
+
+![Query Results](Screenshots/QueryResult.png)
+*Example results from a natural language query*
 
 ## 📹 Demo Video
 
-![Watch the demo](Screenshots/Screen Recording 2025-03-04 at 6.44.59 PM.mov)
+![Watch the demo](Screenshots/Demo.mov)
 
 ## 🛠️ How It Works
 
