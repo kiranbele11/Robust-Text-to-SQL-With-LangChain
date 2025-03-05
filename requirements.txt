@@ -63,7 +63,7 @@ multidict==6.1.0
 mypy-extensions==1.0.0
 narwhals==1.26.0
 nest-asyncio==1.6.0
-numpy==2.2.3
+numpy>=1.26.4,<2.0
 openai==1.63.0
 orjson==3.10.15
 packaging==24.2
