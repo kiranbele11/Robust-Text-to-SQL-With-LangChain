@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.24+-red.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-0.3+-green.svg)
-![License](https://img.shields.io/badge/license-MIT-yellow.svg)
 
 A powerful natural language to SQL query converter built with Streamlit and LangChain. Transform plain English questions into SQL queries and get instant results from your database.
 
