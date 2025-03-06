@@ -17,7 +17,7 @@ A powerful natural language to SQL query converter built with Streamlit and Lang
 
 ## 🖼️ Screenshots
 
-![App Homepage](Screenshots/App-Homepage.png)
+![App Homepage](Screenshots/Homepage.png)
 *The SQL Query Generator main interface*
 
 ![Query Results](Screenshots/QueryResult.png)
