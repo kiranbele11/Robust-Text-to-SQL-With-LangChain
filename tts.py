@@ -118,6 +118,27 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Add a section for metadata
+st.sidebar.title("Dataset Metadata")
+st.sidebar.write("Here's the metadata for the dataset to help you craft your queries:")
+
+# Load and display metadata
+metadata = {
+    "Column Name": ["Transaction_ID", "Date", "Category", "Amount", "Description"],
+    "Description": [
+        "Unique identifier for each transaction",
+        "Date of the transaction (YYYY-MM-DD)",
+        "Category of the transaction (e.g., Food, Travel, Entertainment)",
+        "Amount spent in the transaction",
+        "Additional details about the transaction"
+    ],
+    "Data Type": ["Integer", "Date", "String", "Float", "String"]
+}
+
+# Convert metadata to a DataFrame for better display
+metadata_df = pd.DataFrame(metadata)
+st.sidebar.dataframe(metadata_df)
+
 user_input = st.text_input("Enter your query in natural language:")
 
 if user_input:
