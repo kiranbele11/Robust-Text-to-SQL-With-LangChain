@@ -1,2 +1,1 @@
-# web: sh setup.sh && python fix_tesseract.py && streamlit run app.py
-web: sh setup.sh && python -c "import os, sys; print('Python path:', sys.path); print('PATH:', os.environ.get('PATH')); print('TESSDATA_PREFIX:', os.environ.get('TESSDATA_PREFIX'))" && streamlit run tts.py
+web: streamlit run tts.py --server.port=$PORT --server.address=0.0.0.0
